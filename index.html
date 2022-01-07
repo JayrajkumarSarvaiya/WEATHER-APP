@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>WEATHER APP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <div class="title-1">
+            <input type="text" placeholder="Enter Place Hear..!!" id="city">
+            <button onclick="searchPlace()"> Search </button>
+            <!-- <h1 id="cityName"></h1> -->
+        </div>  
+        </div>
+        <div class="content">
+        <table>
+            <tr>
+              <th>Country</th>
+              <th id="countryName"></th>
+            </tr>
+            <tr>
+                <th>City Name</th>
+                <th id="cityName"></th>
+            </tr>
+            <tr>
+                <th>Weather Type</th>
+                <th id="cwtype"></th>
+            </tr>
+            <tr>
+                <th>Temperature</th>
+                <th id="Temperature"></th>
+            </tr>
+            <tr>
+                <th>Sunrise</th>
+                <th id="Sunrise"></th>
+            </tr>
+            <tr>
+                <th>Sunset</th>
+                <th id="Sunset"></th>
+            </tr>
+            <tr>
+                <th>Humidity</th>
+                <th id="Humidity"></th>
+            </tr>
+            <tr>
+                <th>Wind</th>
+                <th id="Wind"></th>
+            </tr>
+            <tr>
+                <th>Pressure</th>
+                <th id="Pressure"></th>
+            </tr>
+            
+          </table>
+
+          <div class="outer">
+            <img src="" alt="" id="icon" />
+              <h1 class="outertemp"></h1>
+              <h1 class="outername"></h1>
+          </div>   
+
+
+          </div>
+        
+</div>
+
+<footer>Jayraj Sarvaiya &copy; 2022</footer>
+
+
+
+    <script src="weather.js"></script>
+</body>
+</html>

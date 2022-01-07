@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    /* background-color: black; */
+    height: 50px;
+    align-content: center;
+    align-self: center;
+    padding-top: 10px;
+}
+.title-1{
+    
+}
+.outer{
+    color: white;
+    /* text-align: justify; */
+    font-weight: bold;
+}
+#city{
+    width: 600px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+.content{
+    height: 650px;
+    background-color: white;
+    background-image: url('cloude-2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    font-size: large;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+}
+table {
+    margin-left: 400px;
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: gray;
+  }
+ button{
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+
+  }
+  input{
+    border-radius: 10px;
+    height: 30px;
+  }
+  .outername{
+      font-size: 50px;
+      margin-top: -70px;
+  }
+  .outertemp{
+      font-size: 100px;
+      margin-top: -30px;
+  }
+#icon{
+    margin-left: 100px;
+}
